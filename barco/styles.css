@@ -1,0 +1,259 @@
+:root{
+    --cor1: #169AD8;
+    --cor2: #1282B6;
+    --cor3: #16A1E0;
+    --cor4: #0F6A94;
+    --cor5: #0B5172;
+    --cor6: #083950;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+}
+
+header{
+    background-color: var(--cor5);
+    height: 70px;
+}
+
+header h2{
+    color: #16A1E0;
+    position: absolute;
+    top: 10px;
+    left: 7px;
+    font-size: 25px;
+}
+
+header span{
+    color: #c6edffc2;
+    position: absolute;
+    left: 70px;
+    top: 18px;
+}
+
+nav{
+    display: flex;
+    position: relative;
+    background-color: var(--cor6);
+    height: 45px;
+    align-items: center;
+}
+
+nav a{
+    display: inline;
+    text-decoration: none;
+    color: var(--cor3);
+    padding: 10px;
+    position: relative;
+    left: 27%;
+    margin-left: 100px;
+    
+}
+nav a:hover{
+    background-color: #0F6A94;
+    border-radius: 8px;
+    color: #002130;
+
+}
+
+.lancha {
+    position: absolute;
+    left: 40%;
+    top: 210px;
+    background-color: rgba(0, 0, 0, 0.726);
+    width: 20%;
+    height: 60%;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: inset 3px 3px 7px 3px black;
+    
+}
+.lancha img{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    background-color: white;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: inset 3px 3px 6px 3px black;
+    transition: 1s;
+}
+
+.lancha h2{
+    position: absolute;
+    top: 160px;
+    left: 90px;
+    color: #ffffff;
+    font-weight: normal;
+    
+}
+
+
+.lancha li{
+    position: absolute;
+    top: 170px;
+    color: white;
+    font-size: 14px;
+    text-align: justify;
+    margin: 50px;
+}
+
+.lancha button{
+    position: absolute;
+    top: 310px;
+    left: 70px;
+    font-size: 20px;
+    background-color: rgb(0, 92, 153);
+    border-radius: 15px;
+    height: 30px;
+    width: 140px;
+    color: rgb(20, 20, 20);
+
+}
+
+.lancha button:hover{
+    background-color: rgb(0, 52, 87);
+    color: black;
+    cursor: pointer;
+}
+
+.trawler {
+    position: absolute;
+    left: 70%;
+    top: 210px;
+    background-color: rgba(0, 0, 0, 0.726);
+    width: 20%;
+    height: 60%;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: inset 3px 3px 7px 3px black;
+    
+}
+.trawler img{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    background-color: white;
+    width: 80%;
+    height: 110px;
+    border-radius: 15px;
+    box-shadow: inset 3px 3px 6px 3px black;
+}
+
+.trawler h2{
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 23px;
+    
+}
+
+.trawler li{
+    position: absolute;
+    top: 160px;
+    color: white;
+    font-size: 12px;
+    text-align: justify;
+    margin: 50px;
+}
+
+.trawler button{
+    position: absolute;
+    top: 310px;
+    left: 70px;
+    font-size: 20px;
+    background-color: rgb(0, 92, 153);
+    border-radius: 15px;
+    height: 30px;
+    width: 140px;
+    color: rgb(20, 20, 20);
+
+}
+
+.trawler button:hover{
+    background-color: rgb(0, 52, 87);
+    color: black;
+    cursor: pointer;
+}
+
+.veleiro {
+    position: absolute;
+    left: 140px;
+    top: 210px;
+    background-color: rgba(0, 0, 0, 0.726);
+    width: 20%;
+    height: 60%;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: inset 3px 3px 7px 3px black;
+    
+}
+.veleiro img{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    background-color: white;
+    width: 80%;
+    height: 110px;
+    border-radius: 15px;
+    box-shadow: inset 3px 3px 6px 3px black;
+    transition: 1s;
+}
+
+.veleiro h2{
+    position: absolute;
+    top: 160px;
+    left: 90px;
+    color: #ffffff;
+    font-weight: normal;
+    
+}
+
+
+.veleiro li{
+    position: absolute;
+    top: 170px;
+    color: white;
+    font-size: 14px;
+    text-align: justify;
+    margin: 50px;
+}
+
+.veleiro button{
+    position: absolute;
+    top: 310px;
+    left: 70px;
+    font-size: 20px;
+    background-color: rgb(0, 92, 153);
+    border-radius: 15px;
+    height: 30px;
+    width: 140px;
+    color: rgb(20, 20, 20);
+
+}
+
+.veleiro button:hover{
+    background-color: rgb(0, 52, 87);
+    color: black;
+    cursor: pointer;
+}
+.lancha a{
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+}
+.trawler a{
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+}
+.veleiro a{
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+}
